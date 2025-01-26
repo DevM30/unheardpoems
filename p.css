@@ -1,0 +1,36 @@
+p {
+    margin: 0; /* Ensure no extra spacing around the paragraph */
+    color: #474747; /* Text color */
+    line-height: 1.6; /* Improves readability */
+    font-size: large;
+    font-weight: bold;
+}
+h3
+{
+    margin: 10PX 0;
+    text-align: center;
+    font-size: large;
+}
+nav{
+    display: flex;
+    padding: 5px 130px;
+}
+.logo
+{
+    width: 100px;
+    cursor: pointer;
+}
+button 
+{
+    cursor: pointer;
+    background-color: #ADA8B6;
+    text-decoration-color: #23022E;
+    border: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 375%;
+    left: 50%;
+    padding: 10px 20px;
+    font-size: small;
+    font-weight: bold;
+}
